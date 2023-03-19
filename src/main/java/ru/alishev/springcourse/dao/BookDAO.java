@@ -10,12 +10,12 @@ import ru.alishev.springcourse.models.Person;
 import java.util.List;
 import java.util.Optional;
 
-@Component
+//@Component
 public class BookDAO {
 
     private final JdbcTemplate jdbcTemplate;
 
-    @Autowired
+//    @Autowired
     public BookDAO(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
     }

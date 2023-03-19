@@ -12,12 +12,12 @@ import java.util.List;
 /**
  * @author Neil Alishev
  */
-@Component
+//@Component
 public class PersonDAO {
 
     private final JdbcTemplate jdbcTemplate;
 
-    @Autowired
+//    @Autowired
     public PersonDAO(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
     }

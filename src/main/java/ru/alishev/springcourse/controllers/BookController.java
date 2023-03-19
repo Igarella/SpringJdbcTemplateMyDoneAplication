@@ -13,14 +13,14 @@ import ru.alishev.springcourse.models.Person;
 import javax.validation.Valid;
 import java.util.Optional;
 
-@Controller
-@RequestMapping("/books")
+//@Controller
+//@RequestMapping("/books")
 public class BookController {
     private final BookDAO bookDAO;
     private final PersonDAO personDAO;
 
 
-    @Autowired
+//    @Autowired
     public BookController(BookDAO bookDAO, PersonDAO personDAO) {
         this.bookDAO = bookDAO;
         this.personDAO = personDAO;
